@@ -96,12 +96,14 @@
       align-items: center;
       justify-content: space-between;
       padding: 24px 48px;
-      transition: background 0.4s, backdrop-filter 0.4s;
-    }
-    nav.scrolled {
       background: rgba(247,244,239,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(184,153,106,0.15);
+      transition: background 0.4s, backdrop-filter 0.4s;
+    }
+    nav.scrolled {
+      background: rgba(247,244,239,0.96);
+      backdrop-filter: blur(16px);
     }
     .nav-logo {
       font-family: var(--serif);
@@ -224,7 +226,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center;
+      object-position: left center;
     }
     .hero-right::after {
       content: '';
