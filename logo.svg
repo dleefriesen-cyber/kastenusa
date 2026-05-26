@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-label="Kasten">
+  <title>Kasten</title>
+  <!-- Mark: two precision panels with brass connector rail -->
+  <rect x="0" y="8" width="16" height="40" fill="#1E1C1A"/>
+  <rect x="22" y="8" width="16" height="40" fill="#1E1C1A"/>
+  <rect x="0" y="0" width="38" height="8" fill="#B8996A"/>
+  <!-- Wordmark -->
+  <text
+    x="56"
+    y="35"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="26"
+    font-weight="400"
+    letter-spacing="6"
+    fill="#1E1C1A">KASTEN</text>
+</svg>
