@@ -404,6 +404,15 @@
       text-align: right;
       line-height: 1.7;
     }
+    .materials-photo {
+      margin-bottom: 64px;
+    }
+    .materials-photo img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: center 30%;
+    }
     .finishes {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -483,6 +492,11 @@
       width: 100%;
       aspect-ratio: 3/4;
       object-fit: cover;
+    }
+    .lamello-visual img.secondary {
+      aspect-ratio: 4/3;
+      margin-top: 16px;
+      display: block;
     }
     .lamello-badge {
       position: absolute;
@@ -756,7 +770,7 @@
     </div>
     <div class="hero-right">
       <img
-        src="images/hero.jpg"
+        src="images/Hero.png"
         alt="Kasten luxury modular closet system"
       />
       <div class="hero-tag">
@@ -823,7 +837,7 @@
   <section class="how" id="process">
     <div class="how-image">
       <img
-        src="images/closet-system.jpg"
+        src="images/Full%20Bleed%20Panoramic.png"
         alt="Kasten closet installation process"
       />
     </div>
@@ -872,6 +886,9 @@
       </div>
       <p class="materials-note">We offer six finishes — chosen to work beautifully across every interior style. Each is available across the full Kasten system.</p>
     </div>
+    <div class="materials-photo">
+      <img src="images/Materials%20Flat%20Lay.png" alt="Kasten finish samples" />
+    </div>
     <div class="finishes">
       <div class="finish"><div class="finish-swatch f1"></div><p class="finish-name">Chalk White</p></div>
       <div class="finish"><div class="finish-swatch f2"></div><p class="finish-name">Warm Linen</p></div>
@@ -899,8 +916,13 @@
     </div>
     <div class="lamello-visual">
       <img
-        src="images/detail.jpg"
+        src="images/Philosophy.png"
         alt="Kasten precision engineering detail"
+      />
+      <img
+        src="images/Clay%20Walk-in.png"
+        alt="Kasten clay finish walk-in closet"
+        class="secondary"
       />
       <div class="lamello-badge">
         <span>Install<br />time</span>
